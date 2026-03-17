@@ -1,0 +1,18 @@
+Column,Blank Value ,Formula,Average Value
+Study_hour,I Filled blank values with average Study_hour  in Study_hour Column,AVERAGE(C2:C201),2.5
+Screen_time,I Filled blank values with average Screen_time in Screen_time Column,AVERAGE(D2:D201),4
+Test_Scores,I Filled blank values with average Test_Scores in Test_Scores Column,AVERAGE(D2:D201),70.9
+,,,
+,Removing Duplicates,Goto Data----->Remove Duplicates,
+,Screentime_Category,"IF(D2>4,""High"",""Low"")",
+,Age Type,"IF(B2<15,""School Age"",""College Age"")",
+,,,
+,,,
+,,,
+,Insights:,,
+,1. Students with more than 4 hours of screen time show lower test scores on average.,,
+,2. Moderate screen usage students perform better academically.,,
+,3. Students spending more time on extracurricular activities tend to have balanced performance.,,
+,4. Younger students (Teen group) show higher sensitivity to screen time impact.,,
+,5. There is a negative correlation between screen time and academic performance.,,
+,,,
